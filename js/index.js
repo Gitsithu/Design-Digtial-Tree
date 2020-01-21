@@ -20,8 +20,11 @@ $('.go-top').click(function(){
   return false;
 });
 });
-$(window).load(function(){
-  $("#loading").fadeOut(1500);
-});
+
+
+$(window).load(function() {
+  $(".loader").delay(1200).fadeOut(800);
+  
+})
 
 
