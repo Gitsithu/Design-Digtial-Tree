@@ -1,0 +1,94 @@
+/*- - - - - - - - - - - - - - - - - - 
+        Loading Section
+- - - - - - - - - - - - - - - - - -*/
+
+/*- - - - - - - - - - - - - - - - - - 
+        Footer Section
+- - - - - - - - - - - - - - - - - -*/
+
+footer {
+        background: #000;
+        color: #0099ff;
+        padding: 25px 0px;
+        position: relative;
+    }
+    footer .col-md-4 .fa {
+      color: #ffffff;
+      padding-right: 8px;
+    } 
+    footer hr {
+      border-color: #121212;
+      margin-top: 20px;
+      margin-bottom: 2px;
+    }
+    footer .col-md-6 p{
+        text-align: center;
+        background-color:black;
+        color: whitesmoke;
+       }
+    footer .col-md-6 h3{
+        text-align: center;
+    } 
+  /* Back top */
+  .go-top {
+        color: #0099ff!important;
+        box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
+        transition : all 1s ease;
+        bottom: 2em;
+        right: 2em;
+        background-color:orange!important;
+        font-size: 24px;
+        display: none;
+        position: fixed;
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+        border-radius: 100%;
+      }
+      
+      .go-top:hover {
+          color: orange!important;
+          background-color: #0099ff!important;
+      }
+     
+      
+/*- - - - - - - - - - - - - - - - - - 
+        Social Icon
+- - - - - - - - - - - - - - - - - -*/
+    
+    .social-icon {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .social-icon li {
+        display: inline-block;
+        list-style: none;
+    }
+    .social-icon li a {
+        border: 2px solid  lightblue;
+        background-color: black;
+        color:  lightblue;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        margin: 22px 12px 10px 12px;
+    }
+    .social-icon li a:hover {
+        border-color:orange;
+        color:  orange;
+                    background-color: black;
+        transform: scale(1.2);
+    }
+    
